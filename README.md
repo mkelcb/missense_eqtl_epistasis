@@ -20,6 +20,7 @@ Pipeline overiview of 3 stages:
 - While I tried to make this script as readable as possible as well, there are many conditional sections depending on the phenotype, cohorts and marginal models that are repetitive but necessary. Also the bits where I match the covariates to the haplotype specific regression (your) model is also quite tedious.
 2) I saved an R session under results/workspace.RData that has most objects loaded in
 3) As you can see, I already fit your regression model too, I just haven't applied the 'post-processing' step of fixing the inflated variances, as I just never had the time to implement that. So if you want to add that, the 2 places where that would go can be found by searching for the string 
-"### ADD VARIANCE CORRECTION TO THIS MODEL HERE ###"
+
+*"### ADD VARIANCE CORRECTION TO THIS MODEL HERE ###"*
 4) Once we change the datasets the 'Combined' analysis will be removed, and instead we will do a fixed-effects meta analysis
 5) I did not include the code for producing tables for the Genotype/Haplotype frequencies. If you want that too let me know.
