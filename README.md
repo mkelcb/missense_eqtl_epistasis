@@ -1,7 +1,7 @@
 # missense X eQTL epistasis detection
 
 
-Pipeline overiview of 3 stages:
+Pipeline overview of 3 stages:
 
 **I) Extract raw data for the missense/eQTL SNPs and phase them into .haps format**
 1) This involves preparing data for the annotations from the de Lange/Huang studies' supplementary tables, and feeding them though a few bash/python scripts and SHAPEIT3 
